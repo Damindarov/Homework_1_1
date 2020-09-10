@@ -1,0 +1,11 @@
+<launch>
+	
+	<param name ="robot_description" textfile = "$(find lcky_bot)/src/S_nula.urdf" />	
+<!--	<node name = "joint_state_publisher" pkg = "joint_state_publisher" type = "joint_state_publisher">-->
+<!--		<param name ="use_gui" value = "True"/> -->
+<!--	</node> --> 
+    <arg name="rvizconfig" default="$(find lcky_bot)/rviz/set_rviz.rviz" />
+	<node name = "robot_state_publisher" pkg = "robot_state_publisher" type = "robot_state_publisher"/> 
+	<node pkg="scripts" type="talker_lcky.py" name="talker_lcky_bot"/> 
+	<node name = "rviz" pkg = "rviz" type = "rviz" args="-d $(arg rvizconfig)" required="true"/>
+</launch>

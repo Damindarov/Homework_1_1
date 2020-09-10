@@ -1,0 +1,8 @@
+prefix=/home/ruslan/catkin_ws/devel
+
+Name: ex_from_ros
+Description: Description of ex_from_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

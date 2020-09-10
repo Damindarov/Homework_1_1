@@ -1,0 +1,2 @@
+beginner_tutorials:ex_from_ros:lcky_bot:luck:my_robot_urdf:robot1:rosbots_description:scripts:testbot_description
+-DCATKIN_DEVEL_PREFIX=/home/ruslan/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ruslan/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/ruslan/catkin_ws/install
+
+Name: lcky_bot
+Description: Description of lcky_bot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
